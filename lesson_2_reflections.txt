@@ -1,0 +1,4 @@
+What happens when you initialize your repository?
+why do u need to do it?
+ans:.git file is created when we initialize using git init command.
+we create a git repository using this so that we can see histories and more.
