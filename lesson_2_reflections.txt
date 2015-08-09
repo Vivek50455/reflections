@@ -2,3 +2,11 @@ What happens when you initialize your repository?
 why do u need to do it?
 ans:.git file is created when we initialize using git init command.
 we create a git repository using this so that we can see histories and more.
+
+//
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+in staging area we can commit the changes that we have made to the file.
+How can you use the staging area to make sure you have one commit per logical change?
+make the changes and use the git add command to to add the changed files in the staging area and only those files can be committed.
+if i have changed a file but not added in staging area i can use command revert --hard to go to my working directory and unchange the changed.
+i can use git diff --staged to check whats the diff between staged file and previous commit file
