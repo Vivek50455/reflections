@@ -9,4 +9,8 @@ in staging area we can commit the changes that we have made to the file.
 How can you use the staging area to make sure you have one commit per logical change?
 make the changes and use the git add command to to add the changed files in the staging area and only those files can be committed.
 if i have changed a file but not added in staging area i can use command revert --hard to go to my working directory and unchange the changed.
-i can use git diff --staged to check whats the diff between staged file and previous commit file
+i can use git diff --staged to check whats the diff between staged file and previous commit file.
+//
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when we want to try out some new feature and dont want to do commit on the main file we use branches.\
+we create new branch and test everything with commit and if it properly works we commit to it by merging.
