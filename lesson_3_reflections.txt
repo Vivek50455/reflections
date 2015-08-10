@@ -5,3 +5,6 @@ Describe the differences between forks, clones, and branches. When would you use
 forks cloones other repository into your remote repository within git hub only
 clones can be used to clone from a remote repo to local repo or local to local
 branches can be used in local repo only.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+its bcoz if someone chnges in github it wont be reflected in local repo.
+so having last known state of remote repo u can merge the remote updation with the local updation and then push it along.
